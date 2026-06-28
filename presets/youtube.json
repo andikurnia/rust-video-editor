@@ -1,0 +1,14 @@
+{
+  "name": "YouTube 1080p",
+  "width": 1920,
+  "height": 1080,
+  "frame_rate": 30.0,
+  "video_bitrate": "16M",
+  "audio_bitrate": "192k",
+  "video_codec": "libx264",
+  "audio_codec": "aac",
+  "container": "mp4",
+  "pixel_format": "yuv420p",
+  "profile": "high",
+  "preset": "medium"
+}

@@ -1,0 +1,23 @@
+[package]
+name = "editor-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "video-editor"
+path = "src/main.rs"
+
+[dependencies]
+editor-core = { path = "../editor-core" }
+editor-ui = { path = "../editor-ui" }
+media-engine = { path = "../media-engine" }
+project-store = { path = "../project-store" }
+mcp-server = { path = "../mcp-server" }
+clap = { version = "4", features = ["derive"] }
+eframe = "0.29"
+egui = "0.29"
+tracing.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true
+tokio = { version = "1", features = ["full"] }

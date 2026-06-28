@@ -1,0 +1,14 @@
+{
+  "name": "Instagram Feed Square",
+  "width": 1080,
+  "height": 1080,
+  "frame_rate": 30.0,
+  "video_bitrate": "6M",
+  "audio_bitrate": "128k",
+  "video_codec": "libx264",
+  "audio_codec": "aac",
+  "container": "mp4",
+  "pixel_format": "yuv420p",
+  "profile": "high",
+  "preset": "medium"
+}

@@ -1,0 +1,9 @@
+/target/
+**/*.rs.bk
+*.swp
+*.swo
+.*.swp
+.DS_Store
+.vscode/
+*.db
+*.vproj
